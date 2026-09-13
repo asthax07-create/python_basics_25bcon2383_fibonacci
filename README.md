@@ -1,92 +1,77 @@
-# Factorial Calculator 🐍
 
-A simple Python program that calculates the **factorial of a given number** using a loop. This project is designed as a beginner-friendly example of Python programming, loops, and basic mathematical operations.
 
-## 📌 Project Description
+# Fibonacci Sequence Generator
 
-The **Factorial Calculator** takes a non-negative integer as input and calculates its factorial.
+A simple Python program that generates the **Fibonacci sequence** for a given number of terms. This project demonstrates basic Python concepts such as loops, variables, and user-defined input.
 
-The factorial of a number `n` is represented as `n!` and is calculated as:
+## Features
 
-`n! = n × (n-1) × (n-2) × ... × 1`
+* Generates the Fibonacci sequence for a specified number of terms.
+* Simple and easy-to-understand Python implementation.
+* Uses a loop to calculate the sequence.
+* Beginner-friendly project for practicing Python fundamentals.
 
-For example:
-
-`5! = 5 × 4 × 3 × 2 × 1 = 120`
-
-## ✨ Features
-
-* Calculates the factorial of a number.
-* Simple and easy-to-understand Python code.
-* Uses a `for` loop for calculation.
-* Beginner-friendly project.
-* Runs directly from the command line or any Python-supported IDE.
-
-## ⚙️ Installation
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/your-username/factorial-calculator.git
-```
-
-### 2. Navigate to the project directory
-
-```bash
-cd factorial-calculator
-```
-
-### 3. Run the Python program
-
-```bash
-python factorial.py
-```
-
-## 📋 Requirements
+## Requirements
 
 * Python 3.x
-* No external libraries or packages are required.
+* No external libraries are required.
 
-You can check your Python version using:
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone <your-repository-url>
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd <repository-name>
+```
+
+3. Make sure Python 3.x is installed:
 
 ```bash
 python --version
 ```
 
-## 🚀 Usage
+## Usage
 
-1. Open `factorial.py`.
-2. Enter the number for which you want to calculate the factorial.
-3. Run the program.
-4. The calculated factorial will be displayed as the output.
+Run the Python program using:
 
-## 💡 Example
-
-### Input
-
-```text
-5
+```bash
+python fibonacci.py
 ```
 
-### Output
+Enter the number of terms when prompted. The program will generate and display the corresponding Fibonacci sequence.
+
+## Example
+
+**Input:**
 
 ```text
-Factorial of 5 = 120
+Enter the number of terms: 10
 ```
 
-## 📁 Project Structure
+**Output:**
 
 ```text
-factorial-calculator/
-│
-├── factorial.py
+Fibonacci Sequence:
+0 1 1 2 3 5 8 13 21 34
+```
+
+## Project Structure
+
+```text
+.
+├── fibonacci.py
 └── README.md
 ```
 
-## 📄 License
+## License
 
-This project is available under the **MIT License**.
+This project is available for educational and personal use. You may modify and distribute the code as needed.
 
-You are free to use, modify, and distribute this project, subject to the terms of the MIT License.
 
 
