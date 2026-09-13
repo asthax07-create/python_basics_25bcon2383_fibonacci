@@ -13,7 +13,6 @@ A simple Python program that generates the **Fibonacci sequence** for a given nu
 
 ## Requirements
 
-* Python 3.x
 * No external libraries are required.
 
 ## Installation
@@ -66,12 +65,12 @@ Fibonacci Sequence:
 ```text
 .
 ├── fibonacci.py
-└── README.md
+
 ```
 
 ## License
 
-This project is available for educational and personal use. You may modify and distribute the code as needed.
+This is a license/use claim and cannot be established from the Python code.
 
 
 
